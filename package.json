@@ -1,0 +1,23 @@
+{
+  "name": "webfont-builder",
+  "version": "1.0.0",
+  "description": "The webfont-builder package is a simple script which purpose is to help build Web Fonts so they can be easily self-hosted in production-grade applications.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgraterol/webfont-builder.git"
+  },
+  "author": "Jesus Graterol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusgraterol/webfont-builder/issues"
+  },
+  "homepage": "https://github.com/jesusgraterol/webfont-builder#readme",
+  "dependencies": {
+    "clean-css": "^5.3.3"
+  }
+}
