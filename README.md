@@ -54,12 +54,12 @@ $ webfont-builder
 
 ## Deployment
 
-1. Install dependencies:
+Install dependencies:
 ```bash
 $ npm install
 ```
 
-3. Publish to `npm`:
+Publish to `npm`:
 ```bash
 $ npm publish
 ```
