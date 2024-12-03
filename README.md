@@ -10,12 +10,23 @@ Install `webfont-builder` in the font package:
 npm install -D webfont-builder
 ```
 
-Invoke the builder:
+Include the binary in your `build` script:
 
-```bash
-webfont-builder
+```json
+{
+  ...
+  "scripts": {
+    "start": "webfont-builder",
+    ...
+  },
+  ...
+}
 ```
 
+Build the font:
+```bash
+npm start
+```
 
 
 
