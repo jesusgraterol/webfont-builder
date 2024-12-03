@@ -4,16 +4,16 @@ The `webfont-builder` package is a simple script which purpose is to help build 
 
 ## Getting Started
 
-1. Install `webfont-builder` in the font package:
+Install `webfont-builder` in the font package:
 
 ```bash
-$ npm install -D webfont-builder
+npm install -D webfont-builder
 ```
 
-2. Invoke the builder:
+Invoke the builder:
 
 ```bash
-$ webfont-builder
+webfont-builder
 ```
 
 
@@ -56,10 +56,10 @@ $ webfont-builder
 
 Install dependencies:
 ```bash
-$ npm install
+npm install
 ```
 
 Publish to `npm`:
 ```bash
-$ npm publish
+npm publish
 ```
