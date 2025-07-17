@@ -1,6 +1,6 @@
 {
   "name": "webfont-builder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The webfont-builder package is a simple script which purpose is to help build Web Fonts so they can be easily self-hosted in production-grade applications.",
   "main": "src/index.js",
   "type": "module",
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/jesusgraterol/webfont-builder#readme",
   "dependencies": {
-    "clean-css": "^5.3.3"
+    "clean-css": "5.3.3"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "10.1.5",
+    "prettier": "3.6.2"
   }
 }
