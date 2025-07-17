@@ -1,6 +1,6 @@
 {
   "name": "webfont-builder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "The webfont-builder package is a simple script which purpose is to help build Web Fonts so they can be easily self-hosted in production-grade applications.",
   "main": "src/index.js",
   "type": "module",
