@@ -4,10 +4,10 @@ The `webfont-builder` package is a simple script which purpose is to help build 
 
 ## Getting Started
 
-Install `webfont-builder` in the font package:
+Install the package:
 
 ```bash
-npm install -D webfont-builder
+npm i -D webfont-builder
 ```
 
 Include the binary in your `build` script:
@@ -16,7 +16,7 @@ Include the binary in your `build` script:
 {
   ...
   "scripts": {
-    "start": "webfont-builder",
+    "build": "webfont-builder",
     ...
   },
   ...
@@ -25,7 +25,7 @@ Include the binary in your `build` script:
 
 Build the font:
 ```bash
-npm start
+npm run build
 ```
 
 
@@ -56,21 +56,3 @@ npm start
 ## Acknowledgments
 
 - [clean-css](https://github.com/clean-css/clean-css)
-
-
-
-
-
-<br/>
-
-## Deployment
-
-Install dependencies:
-```bash
-npm install
-```
-
-Publish to `npm`:
-```bash
-npm publish
-```

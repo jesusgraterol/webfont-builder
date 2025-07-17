@@ -1,12 +1,6 @@
 #! /usr/bin/env node
-import { 
-  rmSync, 
-  mkdirSync, 
-  writeFileSync, 
-  cpSync 
-} from 'node:fs';
+import { rmSync, mkdirSync, writeFileSync, cpSync } from 'node:fs';
 import CleanCSS from 'clean-css';
-
 
 /* ************************************************************************************************
  *                                            HELPERS                                             *
@@ -26,23 +20,20 @@ const __cleanDist = () => {
 const __minifyFontDeclaration = () => {
   const file = new CleanCSS().minify(['src/index.css']);
   writeFileSync('dist/index.css', file.styles, { encoding: 'utf-8' });
-}
+};
 
 /**
  * Copies the raw font assets from the source into the distribution directory.
  */
 const __copyFontAssets = () => cpSync('src/woff2', 'dist/woff2', { recursive: true });
 
-
-
-
 /* ************************************************************************************************
  *                                           EXECUTION                                            *
  ************************************************************************************************ */
 
 (() => {
- // clean the distribution directory
- __cleanDist();
+  // clean the distribution directory
+  __cleanDist();
 
   // minify the font declaration
   __minifyFontDeclaration();
