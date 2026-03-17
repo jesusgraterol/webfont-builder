@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 import { rmSync, mkdirSync, writeFileSync, cpSync } from 'node:fs';
 import CleanCSS from 'clean-css';
 
